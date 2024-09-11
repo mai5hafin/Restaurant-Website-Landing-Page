@@ -69,6 +69,28 @@
     .menu-card:hover{
         transform: scale(1.08);
     }
+    @media screen  and (max-width:480px){
+    .absolute3{
+        width: 520px;
+    }
+    .absolute2{
+        bottom: -200px;
+    }
+    .footer-up{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-down{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .catagory{
+        margin-top:400px;
+    }
+
+}
 
     
 }
